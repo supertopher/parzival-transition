@@ -3,6 +3,7 @@ ruby "2.0.0"
 
 gem "sinatra"
 gem "rack-flash3"
+gem "haml"
 
 group :development, :test do
   gem 'rspec'
