@@ -6,8 +6,8 @@
 
 .fader{
   /*Height&Width should be reset to reflect desired image size*/
-  height:   334px;
-  width:    450px;
+  height:   287px;
+  width:    354px;
   position:relative;
   margin: right;
 }
@@ -74,8 +74,8 @@ article{
 
 .fader2sec{
   position:relative;
-  height:   334px;
-  width:    450px;
+  height:   287px;
+  width:    354px;
   margin: right;
 }
 
