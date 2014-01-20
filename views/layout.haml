@@ -2,6 +2,8 @@
 %html
   %head
     %title Parzival Transition Demo
+    %link{rel: "stylesheet", type:"text/css", href: "css/application.css", media: "screen"}
   %body
+    = haml :_navigation
     .main
       = yield

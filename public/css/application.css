@@ -1,0 +1,27 @@
+body{
+  margin-top: 0;
+  margin-left: 0;
+  margin-right: 0;
+  background-color: #ecf0f1;
+}
+
+.navigation{
+  padding: 0.5em;
+  /*margin: 0, 0, 1em, 0;*/
+  background-color: white;
+  -webkit-box-shadow: inset 0px -4px 8px -3px rgba(0,0,0,0.75);
+  -moz-box-shadow:    inset 0px -4px 8px -3px rgba(0,0,0,0.75);
+  box-shadow:         inset 0px -4px 8px -3px rgba(0,0,0,0.75);
+}
+
+.title{
+  margin: auto;
+  width: 80%;
+  color: #2980b9;
+}
+
+.main{
+  padding-top: 2em;
+  width: 80%;
+  margin: auto;
+}
