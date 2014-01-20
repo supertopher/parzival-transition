@@ -15,6 +15,9 @@ body{
 }
 
 .title{
+  font-family: 'Lustria', serif;
+  padding-top:      0.5em;
+  padding-bottom:   0.5em;
   margin: auto;
   width: 80%;
   color: #2980b9;
@@ -24,4 +27,35 @@ body{
   padding-top: 2em;
   width: 80%;
   margin: auto;
+}
+
+.fader{
+  position:relative;
+  height:   334px;
+  width:    450px;
+  margin: right;
+}
+
+.fader img{
+  position:absolute;
+  left:0;
+  -webkit-transition: opacity 1s ease-in-out;
+  -moz-transition:    opacity 1s ease-in-out;
+  -o-transition:      opacity 1s ease-in-out;
+  transition:         opacity 1s ease-in-out;
+  border-radius:          17px 17px 17px 17px;
+  -moz-border-radius:     17px 17px 17px 17px;
+  -webkit-border-radius:  17px 17px 17px 17px;
+  border: 3px solid #000000;
+}
+
+.fader img.top:hover {
+  opacity:0;
+}
+
+.image_text{
+  padding: 0.75em;
+  font-size: 1.15em;
+  color: #2980b9;
+
 }
